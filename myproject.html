@@ -16,8 +16,10 @@
 
     <header>
         <h1>ЗДРАВСТВУЙТЕ, Я - ВАШ РОДСТВЕННИК!!!</h1>
+        <p class="pop">Это будет мой первый адекватный сайт, в который я буду помещать
+            все что я изучаю. Прошу Вас не выделываться и любить меняя:)))
+        </p>
     </header>
-
     <main>
         <section id="about" class="about">
             <h2>Здесь, ниже будет представленна все информация обо мне:</h2>
@@ -49,6 +51,21 @@
             <p>Number: +375256709484</p>
             <p>Отец имеется</p>
             <button class="btn">Связаться со мной</button>
+        </section>
+        <section id="contact">
+            <h2>Свяжитесь со мной</h2>
+            <form action="#" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имечко!" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Введите вашу почту!" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" placeholder="Введите ваше сообщенько!" required></textarea>
+
+                <button type="submit" class="btn">Отправить</button>
+            </form>
         </section>
     </main>
     <footer>
